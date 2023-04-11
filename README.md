@@ -23,6 +23,14 @@ Follow these steps to install Tiled on your Linux system:
 # Usage 🎮
 After installing and launching Tiled, you can start creating and editing tile maps for your projects. For more information on using Tiled, check out the official documentation: https://doc.mapeditor.org/en/stable/
 
+# Exporting Tiled Layers to JSON ❗️🔺📑
+Before using the script to convert your layers, don't forget to export the Tiled layers in JSON format. Here's how to do it:
+
+Go to "File" > "Export As" > "JSON". 📁
+Select the folder where you want to save the JSON file and give it a name. 📝
+Click on "Save" to export the layers in JSON format. 💾
+Once you have exported your Tiled layers in JSON, you can convert them with the script as described in the next steps. 📂🚀
+
 # 🌟 Map Layer Converter 🌟
 This script converts JSON map layers into individual text files, making it easier to view and edit each layer separately. The script reads the JSON file containing the map layers, formats the data, and outputs the formatted data into separate text files. It's perfect for game developers or anyone working with 2D map data! 🎮🗺️
 
