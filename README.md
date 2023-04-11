@@ -60,3 +60,23 @@ The script is designed to be easy to modify. Below are some areas you may want t
 - Output file naming: To change the naming convention for the output files, modify the layerName variable in the createTxtFilesFromJsonLayers function.
 
 Enjoy working with your map layers, and happy coding! 🎈🎉
+
+# RPG Layer Management and Collision Detection 🎮🗺️
+This guide will explain how to use layers in your RPG project to create depth and manage collisions with walls and other objects. Additionally, it will cover the benefits of the script that converts layers from JSON to TXT, enabling easy collision handling in the game using an int ** data structure.
+
+# Using Layers for Depth and Collision in RPGs 🏞️🔒
+Layers in your RPG project can serve several purposes, such as:
+
+- Depth management: By organizing textures and objects on different layers, you can create a sense of depth in the game world. For example, you can place the player character on a middle layer, allowing them to walk behind certain textures, like trees or walls, on upper layers, and in front of textures on lower layers.
+
+- Collision detection:
+Using dedicated layers for objects or walls that the player should not be able to pass through, you can manage collision detection more effectively. By keeping track of these collision layers, you can prevent the player character from walking through walls or other solid objects.
+
+# JSON to TXT Conversion Script Utility 🔄📄
+The script provided helps transform the layer data from JSON format (exported from Tiled) to TXT. This conversion has several advantages:
+
+Easy integration: The script converts the JSON layers into an int ** data structure in a TXT file. This structure can be easily integrated into your game engine, allowing you to create a direct link between the game map and the associated textures.
+
+Collision handling: Once the layers are in the int ** format, you can effectively handle collision detection in your game. By checking the values in the int ** structure, you can determine if the player character is attempting to walk into a solid object or wall, and prevent them from doing so.
+
+By following these guidelines and utilizing the provided script, you can create a more immersive and functional RPG experience. Happy game development! 🎉🕹️
